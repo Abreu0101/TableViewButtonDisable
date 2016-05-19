@@ -12,6 +12,9 @@
 		EAFCF3111CEDF88F008A03AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFCF30F1CEDF88F008A03AE /* Main.storyboard */; };
 		EAFCF3131CEDF88F008A03AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFCF3121CEDF88F008A03AE /* Assets.xcassets */; };
 		EAFCF3161CEDF88F008A03AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFCF3141CEDF88F008A03AE /* LaunchScreen.storyboard */; };
+		EAFCF3221CEDFFDB008A03AE /* FirstTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFCF3211CEDFFDB008A03AE /* FirstTypeTableViewCell.swift */; };
+		EAFCF3241CEDFFE8008A03AE /* SecondTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFCF3231CEDFFE8008A03AE /* SecondTypeTableViewCell.swift */; };
+		EAFCF3261CEDFFF6008A03AE /* ThirdTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFCF3251CEDFFF6008A03AE /* ThirdTypeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		EAFCF3121CEDF88F008A03AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAFCF3151CEDF88F008A03AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAFCF3171CEDF88F008A03AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFCF3211CEDFFDB008A03AE /* FirstTypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTypeTableViewCell.swift; sourceTree = "<group>"; };
+		EAFCF3231CEDFFE8008A03AE /* SecondTypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTypeTableViewCell.swift; sourceTree = "<group>"; };
+		EAFCF3251CEDFFF6008A03AE /* ThirdTypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTypeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,49 @@
 		EAFCF30A1CEDF88E008A03AE /* TabBarTesting */ = {
 			isa = PBXGroup;
 			children = (
-				EAFCF30B1CEDF88E008A03AE /* AppDelegate.swift */,
+				EAFCF31F1CEDFFAE008A03AE /* View */,
+				EAFCF31E1CEDFF9B008A03AE /* Extra Files */,
+				EAFCF31D1CEDFF94008A03AE /* Controller */,
+			);
+			path = TabBarTesting;
+			sourceTree = "<group>";
+		};
+		EAFCF31D1CEDFF94008A03AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				EAFCF30D1CEDF88E008A03AE /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EAFCF31E1CEDFF9B008A03AE /* Extra Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAFCF3171CEDF88F008A03AE /* Info.plist */,
+				EAFCF30B1CEDF88E008A03AE /* AppDelegate.swift */,
+			);
+			name = "Extra Files";
+			sourceTree = "<group>";
+		};
+		EAFCF31F1CEDFFAE008A03AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAFCF3201CEDFFBF008A03AE /* Cells */,
 				EAFCF30F1CEDF88F008A03AE /* Main.storyboard */,
 				EAFCF3121CEDF88F008A03AE /* Assets.xcassets */,
 				EAFCF3141CEDF88F008A03AE /* LaunchScreen.storyboard */,
-				EAFCF3171CEDF88F008A03AE /* Info.plist */,
 			);
-			path = TabBarTesting;
+			name = View;
+			sourceTree = "<group>";
+		};
+		EAFCF3201CEDFFBF008A03AE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EAFCF3211CEDFFDB008A03AE /* FirstTypeTableViewCell.swift */,
+				EAFCF3231CEDFFE8008A03AE /* SecondTypeTableViewCell.swift */,
+				EAFCF3251CEDFFF6008A03AE /* ThirdTypeTableViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFCF3221CEDFFDB008A03AE /* FirstTypeTableViewCell.swift in Sources */,
+				EAFCF3261CEDFFF6008A03AE /* ThirdTypeTableViewCell.swift in Sources */,
+				EAFCF3241CEDFFE8008A03AE /* SecondTypeTableViewCell.swift in Sources */,
 				EAFCF30E1CEDF88E008A03AE /* ViewController.swift in Sources */,
 				EAFCF30C1CEDF88E008A03AE /* AppDelegate.swift in Sources */,
 			);
