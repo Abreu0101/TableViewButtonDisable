@@ -156,7 +156,9 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate{
             }
         }
 
-        self.tblSample.reloadRowsAtIndexPaths([NSIndexPath(forRow: 2, inSection: 0)], withRowAnimation: UITableViewRowAnimation.None)
+        self.tblSample.reloadRowsAtIndexPaths([NSIndexPath(forRow: sampleData.count - 1, inSection: 0)], withRowAnimation: UITableViewRowAnimation.None)
+        
+        
     }
     
 
